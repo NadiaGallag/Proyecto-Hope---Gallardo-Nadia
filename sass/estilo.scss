@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+} 
+
+a:hover {
+    background-color: rgba(206, 206, 192, 0.475);
+    border-radius: 0.5rem;
+}
+
+.boton {
+    display: flex;
+    position: fixed;
+    left: 88%;
+    
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #4dc247;
+        font-size: 2.5rem;
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 90%;
+        text-decoration: none;
+        &:hover {
+            color: #2fae28;
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .boton a {
+        font-size: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+
+@import "footer.scss";
+@import "contacto.scss";
+@import "index.scss";
+@import "sucursales.scss";
+@import "nosotros.scss";
+@import "productos.scss";
+

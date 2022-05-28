@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+} 
+
+/* ------------------------------------------------------------------------------- */
+/* -----------------------------------  INDEX ------------------------------------ */
+/* ------------------------------------------------------------------------------- */
+
+/* ---------------- boton wpp---------------------------------- */
+
+
+
+.boton {
+    display: flex;
+    position: fixed;
+    left: 88%;
+    bottom: 40px;
+}
+
+.boton a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #4dc247;
+    font-size: 2.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 90%;
+    text-decoration: none;
+}
+.boton a :hover {
+    color: #2fae28;
+}
+
+@media screen and (max-width:480px) {
+    .boton a {
+        font-size: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+/* ------------------- header ------------- */
+
+.header_ {
+    background-image: url(../medias/1fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.nav-item a {
+    font-size: 1.5vw;
+}
+
+a:hover {
+    background-color: rgba(206, 206, 192, 0.475);
+
+}
+
+.intro {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+
+/* ------ carrusel ----- */
+
+
+.carrusel {
+   margin: 5%;
+}
+
+.nav-link {
+    font-size: 1.2vw;
+    margin-left: 0,5%;
+    margin-right: 0,5%;
+}
+
+/* ------ main ------ */
+
+#foto {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+
+
+a:hover {
+    border-radius: 0.5rem;
+}
+
+.main_ {
+    position: relative;
+    margin: 5%;
+    text-decoration: none;
+}
+.main__ {
+    position:absolute;
+    left: 29%;
+    top: 40%;
+    border-radius: 0.5rem;
+    background-color: rgba(241, 236, 214, 0.678);
+    padding: 1%;
+}
+
+.main__ a {
+    text-decoration: none;
+    color: black;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* -----------------------------------  FOOTER ------------------------------------ */
+/* ------------------------------------------------------------------------------- */
+
+.copyright h6 {
+    display: flex;
+    justify-content: center;
+    margin: 0.5%;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.FOOTER_ {
+    background-color: rgba(252, 252, 252, 0.493);
+}
+
+.FOOTER_ section p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 26px;
+    margin-top: 10%;
+    padding-top: 1%;
+    font-weight: bold;
+}
+
+.footer_sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1%;
+   
+}
+
+footer div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    text-decoration: none;
+    
+}
+
+#insta, #face {
+    color: rgb(15, 15, 15);
+}
+
+@media screen and (max-width:480px) {
+    .footer_sec a {
+        font-size: 1.5rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .FOOTER_ section p {
+        font-size: 1.5rem;
+    }
+}
+
+/* ----------------------------------------------------------------------- */
+/* ---------------------------- CONTACTOS ----------------------------- */
+/* -------------------------------------------------------------------- */
+
+
+.contact__main p {
+    color: black;
+    font-size: 3vw;
+    font-weight: bolder;
+
+}
+
+
+.contact__main{
+    display: grid;
+    grid-template-columns: 70%;
+    grid-template-rows: repeat(2 30% 60%);
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.contact__main_ {
+    margin-top: 6%;
+    background-color: rgba(252, 252, 252, 0.493);
+    padding: 5%;
+}
+
+.contactoo_ {
+    margin: 15%;
+    padding: 5%;
+    background-color: rgba(252, 252, 252, 0.493);
+}
+.contactoo_ #contactoo__ {
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* ---------------------------------- Sucursales ------------------------------- */
+/* ------------------------------------------------------------------------------ */
+
+
+.sucursales {
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0%;
+    font-weight: bold;
+   
+}
+
+.locales {
+    margin: 0%;
+    justify-content: center;
+    margin-top: 4%;
+    background-color: rgba(252, 252, 252, 0.493);
+
+}
+
+.locales p {
+    font-size: 4.5vw;
+    font-weight: bold;
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.sucursales__ {
+    padding-left: 0%;
+
+}
+
+.sucursales__ li {
+    font-size: 2.5vw;
+    text-align: center;
+    color: black;
+}
+
+.mapa div {
+    grid-row: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(252, 252, 252, 0.493);
+}
+
+.gmap_canvas {
+    display: grid;
+    justify-content: center;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------  NOSOTROS  ------------------------------------------------------ */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+.gridsomos_ {
+    display: grid;
+    grid-template-areas: 
+    "primero segundo ";
+    grid-template-columns: 50% 50%;
+    background-color: rgba(255, 247, 247, 0.659);
+    margin: 5%;
+    padding: 3%;
+}
+
+.somos1 {
+    grid-area: primero;
+    margin-right: 5%;
+    
+}
+
+.somo2 {
+    grid-area: segundo;
+    margin-left: 5%;
+}
+
+#nosotros {
+    width: 100%;
+    height: 100%;
+}
+
+.nosotros__ {
+    font-size: 2.5vw;
+    color: black;
+    font-weight:bold ;
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.somoss_ {
+    margin: 5%;
+}
+.somoss_ #somoss__ {
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------------------------------- PRODUCTOS -------------------------- */
+
+.ManinProductos {
+    background-color: rgba(255, 247, 247, 0.659);
+    margin: 8%;
+}
+
+.grid_ {
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+  
+}
+
+.main1 img {
+    width: 100%;
+    height: 100%;
+    margin-top: 4%;
+    
+}
+
+.texto2_ .texto2__ {
+    display: grid;
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 3%;
+    color: black;
+    font-weight:500;
+    padding: 3%;
+}
+
+.catalogo a:hover {
+    border-radius: 0.5rem;
+}
+
+.catalogo {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+
+}
+.catalogo_ {
+    position:absolute;
+    top: 40%;
+    border-radius: 0.9rem;
+    padding: 1%;
+    margin-bottom: 5%;
+}
+
+.catalogo_ a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5vw;
+    font-weight: bold;
+    background-color: rgba(255, 247, 247, 0.659);
+    border-radius: 0.5rem;
+}
+
+
